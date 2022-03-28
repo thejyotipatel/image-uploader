@@ -6,7 +6,12 @@ const ImageAfterUpdoad = () => {
         alt='image'
         className='img'
       />
-      <div className='url-contant'></div>
+      <div className='url-contant'>
+        <input type='url' name='copyImage' className='image-url' />
+        <button className='copy-btn' onClick={() => console.log('copy')}>
+          copy
+        </button>
+      </div>
     </div>
   )
 }
